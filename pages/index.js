@@ -8,7 +8,7 @@ export default function Home() {
     setWindowWidth(window.innerWidth);
   }, []);
   return (
-    <main className="mt-10 bg-gray-100">
+    <main className="mt-10 bg-gray-100 overflow-x-hidden">
       <section className="py-5 flex items-center justify-center space-x-4">
         <img
           src="https://www.apple.com/v/home/aq/images/logos/unicef-relief-fund/unicef_logo_dark__ejvlglygb3ee_large.png"
@@ -25,8 +25,8 @@ export default function Home() {
       </section>
 
       <section className="flex flex-col gap-2 bg-white">
-        <div className="relative h-[736px] bg-[#FBFBFD]">
-          <div className="w-1/3 h-full absolute top-0 bottom-0 left-[25%] z-10 flex flex-col items-center justify-center gap-4">
+        <div className="relative w-full h-[1200px] lg:h-[750px] bg-[#FBFBFD]">
+          <div className="w-full lg:w-1/3 lg:h-full pt-20 lg:pt-0 absolute top-0 lg:bottom-0 left-0 right-0 lg:left-[25%] lg:right-0 z-10 flex flex-col items-center justify-center gap-4">
             <h2 className="text-6xl font-semibold">MacBook Air</h2>
             <h3 className="text-3xl">Supercharged by M2</h3>
             <div className="flex items-center justify-center gap-8">
@@ -44,12 +44,12 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="h-full w-full">
-            <figure className="bg-[url('https://www.apple.com/v/home/aq/images/heroes/macbook-air/hero_macbookair__el7scava26mq_largetall.png')] translate-x-40 bg-center w-full h-full"></figure>
+          <div className="h-full w-full mt-12 lg:mt-0 lg:pt-0">
+            <figure className="bg-[url('https://www.apple.com/v/home/aq/images/heroes/macbook-air/hero_macbookair__el7scava26mq_largetall.png')] -translate-x-20 lg:translate-x-40 bg-center object-contain lg:bg-center w-full h-full bg-no-repeat"></figure>
           </div>
         </div>
 
-        <div className="relative h-[736px]">
+        <div className="relative h-[736px] bg-[#FBFBFD]">
           <div className="w-full absolute top-0 left-0 right-0 pt-20 flex flex-col items-center justify-center gap-4">
             <h2 className="text-6xl font-semibold">iPhone 13</h2>
             <h3 className="text-3xl">Your new superpower.</h3>
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="relative h-[900px]">
+        <div className="relative h-[900px] bg-[#FBFBFD]">
           <div className="w-full absolute top-0 left-0 right-0 pt-20 flex flex-col items-center justify-center gap-4">
             <h2 className="text-6xl font-semibold italic">
               Get <span className="text-rose-600 ">supercharged</span> for
@@ -91,8 +91,8 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="h-full w-full">
-            <figure className="bg-[url('https://www.apple.com/v/home/aq/images/heroes/back-to-school-2022/hero_bts__bcuslanw39xe_mediumtall_2x.jpg')] bg-center w-full h-full"></figure>
+          <div className="h-full full w-full">
+            <figure className="bg-[url('https://www.apple.com/v/home/aq/images/heroes/back-to-school-2022/hero_bts__bcuslanw39xe_mediumtall_2x.jpg')] bg-top w-full h-full "></figure>
           </div>
         </div>
       </section>

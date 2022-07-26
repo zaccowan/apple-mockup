@@ -3,7 +3,7 @@ import { SearchIcon, ShoppingBagIcon } from "@heroicons/react/outline";
 
 function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-apple-gray/90 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/70 backdrop-blur-sm">
       <ul className="flex items-center justify-evenly mx-auto max-w-6xl">
         <Link href="/">
           <a className="navItem ">
