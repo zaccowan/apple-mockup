@@ -7,10 +7,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Fake Apple</title>
-        <link
-          rel="icon"
-          href="https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg"
-        />
+        <link rel="icon" href="/apple-64.ico" />
       </Head>
       <Navbar />
       <Component {...pageProps} />
