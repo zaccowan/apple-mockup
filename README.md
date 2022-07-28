@@ -1,6 +1,8 @@
 # apple-mockup
 
-Front End Clone of the Apple Website
+Front End Clone of the Apple Website <br>
+<br>
+View it on [codesandbox](https://codesandbox.io/s/relaxed-cache-hfj65h?file=/README.md)
 
 # Dependencies
 
@@ -9,4 +11,3 @@ Front End Clone of the Apple Website
 3. Heroicons
 4. React
 5. Next JS
- 
