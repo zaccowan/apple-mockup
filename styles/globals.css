@@ -10,6 +10,26 @@
         @apply text-xs text-white contrast-50 hover:contrast-100 transition-all duration-100 ease-out
     }
     .blueLink {
-        @apply text-sky-600 hover:underline cursor-pointer tracking-tight font-medium
+        @apply text-sky-600 hover:underline cursor-pointer tracking-tight font-normal    }
+
+    /* Homepage Styles */
+    .full-span-h2 {
+        @apply text-5xl font-semibold
+    }
+    .full-span-h3 {
+        @apply text-2xl
+    }
+
+    .half-span-text-container-light {
+        @apply w-full absolute top-0 left-0 right-0 pt-20 flex flex-col items-center justify-center gap-4 z-40
+    }
+    .half-span-text-container-dark {
+        @apply w-full absolute top-0 left-0 right-0 pt-20 flex flex-col items-center justify-center gap-4 z-40 text-white
+    }
+    .half-span-h2 {
+        @apply text-4xl font-semibold
+    }
+    .half-span-h3 {
+        @apply text-xl text-center
     }
 }
